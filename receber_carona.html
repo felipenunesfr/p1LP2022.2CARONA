@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='pt'>
+<meta charset="utf-8">
+    <head>
+        <title>RECEBER CARONA | CARONAUFRJ</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="receber_carona.css">
+    </head>
+
+    <body>
+        <main>
+            <div class="Logo">
+                <img src="carona.png" alt="Logo Site Carona" height="100" width="100">
+            </div>
+
+            <h1 class="titulo">RECEBER CARONA | CARONAUFRJ</h1>
+            <h2 class="subtitulo">Preencha os dados da carona abaixo:</h2>
+
+            <div class="darcarona">
+                <h1>Filtrar Carona</h1>
+                <form name="f_recebercarona" action="PARA ONDE IRAO OS DADOS" method="COMO IRAO">
+                    <h3>Ida ou volta?</h3>
+                    <label>Ida</label>
+                    <input type="checkbox" name="f_ida">
+                    <br><br>
+                    <label>Volta</label>
+                    <input type="checkbox" name="f_volta">
+                    <br><br>
+                    <label>Qual o dia da sua carona? (dd/mm)</label>
+                    <input type="text" name="f_data">
+                    <br><br>
+                    <label>Entre quais horários você deseja sair? De 5 em 5 minutos (hr/mn)</label>
+                    <input type="text" name="f_horarioinicial" placeholder="Horário Mínimo">
+                    <input type="text" name="f_horariofinal" placeholder="Horário Máximo">
+                    <br><br>
+                    <label>De onde você vai sair?</label>
+                    <input type="text" name="f_saida">
+                    <br><br>
+                    <label>Para onde você irá?</label>
+                    <input type="text" name="f_chegada">
+                    <br><br>
+                    <input type="submit" name="f_botao" value="Enviar">
+                    <br><br>
+                </form>
+            </div>
+
+            <hr class="observação" align="center">
+
+            <h4 class="subtitulo">Desistiu?</h4>
+            <h4 class="subtitulo"><a href="http://127.0.0.1:5000/menuinicial">Clique aqui</a></h4>
+        
+        </main>
+    </body>
+
+</html>
